@@ -1,0 +1,231 @@
+body {
+	margin :100px 100px;
+	margin-top: 20px;
+	font-family:'Philosopher', sans-serif;
+	
+}
+
+header  a {
+	color: #6E2137;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	margin : 0;
+		
+}
+
+a:hover {
+	color: white;
+	font-size: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#B3B0BF;
+	margin:0;
+	padding: 20px;
+	border-radius: 20px;
+
+		
+}
+
+/* taille du logo
+.logo {
+width: 100px;
+
+.navbar-flex {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.links-navbar-flex {
+     padding:50px;
+*/
+
+p {
+	border-radius: 20px;
+
+}
+
+.logo {
+	height: 80px;
+	border-radius: 50%
+}
+
+.icone-maison {
+	width:10%;
+	height:10%;
+}
+
+.banner {
+	background: url("images/image_acueil.jpg");
+	height: 400px;
+	background-size: cover;
+	background-position: right 120% bottom 70%;
+	text-align: left;
+	font-family:'Philosopher', sans-serif;
+	margin:0;
+	border-radius: 20px 60px;
+
+} 
+
+h1,h2 {
+	color: white;
+	font-size: 40px;
+}
+
+
+.corps_du_texte {
+	margin-top: 50px;
+	color :#52AFC6;
+	font-size: 18px;
+	
+
+}
+
+.liste_forfaits {
+	border-radius: 50%;
+	background-color: #6E2137;
+	color: white;
+	font-size: 25px;
+
+}
+	
+.alignementfoto {
+	display:flex;
+	justify-content: space-around;
+
+}
+	
+
+.forfait {
+	width: 80%;
+
+	
+}
+
+
+.produits {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.listes-services img {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 200px;
+
+}
+.listes-services  {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+a {
+	text-decoration: none;
+	color: #6E2137;
+
+}
+
+footer {
+	width: 100%;
+	background: #B3B0BF;
+	border-radius: 20px;
+	color: #6E2137;
+	margin-top: 50px;
+}
+
+.contenu-footer {
+	
+	margin: 0 auto;
+	font-size: 16px;
+	padding: 50px 0 55px;
+	color: #6E2137;
+}
+.footer-bis{
+	display: flex;
+	justify-content: space-around;
+}
+
+.reseaux img {
+	width: 20px;
+	height: 20px;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.piedpage{
+	display: flex;
+	justify-content: space-around;
+	border: solid;
+
+}
+.forfait-silver {
+	width: 400px;
+	height:300px;
+}
+.text-color{
+	color: palevioletred;
+}
+.couleurpoliceequipe {
+	color: #6E2137;
+	font-size: 25px;
+
+}
+.imagecoeur {
+	width: 100%;
+	height: 70vh;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.superwomen {
+	position: center;
+}
+
+.imageamourfutur {
+	width: 100%;
+	height: 450px;
+	border-radius: 20px;
+
+}
+h3 {
+	text-align:center;
+	background-color: #6E2137;
+	border-radius: 20px;
+	color: white;
+}
+.display {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bouton {
+	border-radius: 20px;
+}
+
+.notrehistoire {
+	text-align: center;
+	color: #6E2137;
+	background-color: #B3B0BF;
+	border-radius: 20px;
+}
+.options-tarifs {
+	display: flex;
+	justify-content: space-around;
+}
